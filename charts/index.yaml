@@ -40,6 +40,6 @@ entries:
     sources:
     - https://github.com/CloudScope/helm/charts/jenkins
     urls:
-    - https://CloudScope.github.io/helm/charts/jenkins-13.5.3.tgz
+    - https://cloudscope.github.io/helm/charts/jenkins-13.5.3.tgz
     version: 13.5.3
 generated: "2025-01-25T12:28:32.668196824+05:30"
