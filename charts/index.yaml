@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: jenkins
+          image: docker.io/bitnami/jenkins:2.479.3-debian-12-r0
+        - name: jenkins-agent
+          image: docker.io/bitnami/jenkins-agent:0.3283.0-debian-12-r2
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r34
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 2.479.3
+    created: "2025-01-25T12:28:32.686760724+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Jenkins is an open source Continuous Integration and Continuous Delivery
+      (CI/CD) server designed to automate the building, testing, and deploying of
+      any software project.
+    digest: 83ace8a659fe8a43bb72dde429c4d15a733f170c0ad0bb27387fa62caa6ab5f7
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    - http
+    - web
+    - application
+    maintainers:
+    - email: pradhanraghunath91@gmail.com
+      name: Raghunath Pradhan
+    name: jenkins
+    sources:
+    - https://github.com/CloudScope/helm/charts/jenkins
+    urls:
+    - https://CloudScope.github.io/helm/charts/jenkins-13.5.3.tgz
+    version: 13.5.3
+generated: "2025-01-25T12:28:32.668196824+05:30"
