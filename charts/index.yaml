@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: v2.11.0
+    created: "2025-02-01T19:25:22.641602317+05:30"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: 860bdceea0f5e3ef9954c277be16046c75bfaa011954b83914983558babc16b8
+    home: https://github.com/CloudScope/
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: pradhanraghunath91@gmail.com
+      name: Raghunath Pradhan
+      url: https://github.com/CloudScope
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/CloudScope/helm/charts/aws-load-balancer-controller
+    urls:
+    - https://CloudScope.github.io/helm/charts/aws-load-balancer-controller-1.11.0.tgz
+    version: 1.11.0
   jenkins:
   - annotations:
       category: Infrastructure
@@ -13,7 +37,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.479.3
-    created: "2025-01-25T12:28:32.686760724+05:30"
+    created: "2025-02-01T19:25:22.999568578+05:30"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -40,6 +64,6 @@ entries:
     sources:
     - https://github.com/CloudScope/helm/charts/jenkins
     urls:
-    - https://cloudscope.github.io/helm/charts/jenkins-13.5.3.tgz
+    - https://CloudScope.github.io/helm/charts/jenkins-13.5.3.tgz
     version: 13.5.3
-generated: "2025-01-25T12:28:32.668196824+05:30"
+generated: "2025-02-01T19:25:22.629263733+05:30"
