@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   argocd-self-managed:
   - apiVersion: v2
-    created: "2025-02-02T16:11:37.369509369+05:30"
+    created: "2025-02-02T18:58:35.684301031+05:30"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -15,7 +15,7 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.11.0
-    created: "2025-02-02T16:11:37.381615169+05:30"
+    created: "2025-02-02T18:58:35.698052631+05:30"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 860bdceea0f5e3ef9954c277be16046c75bfaa011954b83914983558babc16b8
     home: https://github.com/CloudScope/
@@ -39,7 +39,7 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2025-02-02T16:11:37.40842017+05:30"
+    created: "2025-02-02T18:58:35.782064132+05:30"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -57,6 +57,28 @@ entries:
     urls:
     - https://cloudscope.github.io/helm/charts/cert-manager-1.0.0.tgz
     version: 1.0.0
+  grafana:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-02T18:58:35.803897032+05:30"
+    dependencies:
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 8.8.6
+    description: A Helm chart for Grafana on Kubernetes
+    digest: 3e6bd6ada80b3b6e5c692f509b61ec4abbc768208da2046df396ccdb59c156a9
+    icon: https://artifacthub.io/image/b4fed1a7-6c8f-4945-b99d-096efa3e4116
+    keywords:
+    - monitoring
+    - metric
+    maintainers:
+    - email: pradhanraghunath91@gmail.com
+      name: Raghunath Pradhan
+    name: grafana
+    type: application
+    urls:
+    - https://cloudscope.github.io/helm/charts/grafana-1.0.0.tgz
+    version: 1.0.0
   jenkins:
   - annotations:
       category: Infrastructure
@@ -70,7 +92,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.479.3
-    created: "2025-02-02T16:11:37.429751271+05:30"
+    created: "2025-02-02T18:58:35.821981533+05:30"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -99,4 +121,4 @@ entries:
     urls:
     - https://cloudscope.github.io/helm/charts/jenkins-13.5.3.tgz
     version: 13.5.3
-generated: "2025-02-02T16:11:36.961576255+05:30"
+generated: "2025-02-02T18:58:35.266501125+05:30"
