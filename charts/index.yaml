@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   argocd-self-managed:
   - apiVersion: v2
-    created: "2025-02-03T01:30:30.389446958+05:30"
+    created: "2025-02-03T08:53:14.551919322+05:30"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -15,7 +15,7 @@ entries:
   aws-load-balancer-controller:
   - apiVersion: v2
     appVersion: v2.11.0
-    created: "2025-02-03T01:30:30.39929716+05:30"
+    created: "2025-02-03T08:53:14.634893522+05:30"
     description: AWS Load Balancer Controller Helm chart for Kubernetes
     digest: 860bdceea0f5e3ef9954c277be16046c75bfaa011954b83914983558babc16b8
     home: https://github.com/CloudScope/
@@ -39,7 +39,7 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2025-02-03T01:30:30.421095365+05:30"
+    created: "2025-02-03T08:53:14.744805722+05:30"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -60,7 +60,7 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-03T01:30:30.439945569+05:30"
+    created: "2025-02-03T08:53:14.787023522+05:30"
     dependencies:
     - name: grafana
       repository: https://grafana.github.io/helm-charts
@@ -92,7 +92,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.479.3
-    created: "2025-02-03T01:30:30.457819173+05:30"
+    created: "2025-02-03T08:53:14.855077622+05:30"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -124,13 +124,13 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: v3.1.0
-    created: "2025-02-03T01:30:30.487663479+05:30"
+    created: "2025-02-03T08:53:14.889801222+05:30"
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
       version: 27.2.0
     description: Prometheus is a monitoring system and time series database.
-    digest: 32dc00e2d80aa467c97b6a38d4a33e3d47a236f9fe56224dc1f50ac110087681
+    digest: e92b8aacef9842b0659d191134a7e7285a3ddb56985126390fc145bcff2907e4
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -149,6 +149,6 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics
     type: application
     urls:
-    - https://cloudscope.github.io/helm/charts/prometheus-1.0.0.tgz
-    version: 1.0.0
-generated: "2025-02-03T01:30:30.357291451+05:30"
+    - https://cloudscope.github.io/helm/charts/prometheus-1.1.0.tgz
+    version: 1.1.0
+generated: "2025-02-03T08:53:14.295057923+05:30"
